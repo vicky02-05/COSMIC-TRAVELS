@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosmic Travels</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">🌌 Cosmic Travels</div>
+    <nav>
+      <ul>
+        <li><a href="#home" title="Go to Home">Home</a></li>
+        <li><a href="#adventures" title="See our Adventures">Adventures</a></li>
+        <li><a href="#destinations" title="Explore Destinations">Destinations</a></li>
+        <li><a href="#faq" title="Frequently Asked Questions">FAQs</a></li>
+        <li><a href="#contact" title="Contact Us">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Embark on a Galactic Journey</h1>
+    <p>Adventure beyond the stars with Cosmic Travels</p>
+    <a href="#adventures" class="btn-primary" title="Explore our adventures">Start Exploring</a>
+  </section>
+
+  <section id="adventures">
+    <h2><i class="fas fa-hiking"></i> Featured Adventures</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="assets/mars-hike.jpg" alt="Mars Hiking Adventure" />
+        <h3>Red Planet Hiking</h3>
+        <p>Explore the rugged terrain of Mars with expert guides.</p>
+      </div>
+      <div class="card">
+        <img src="assets/moon-camping.jpg" alt="Moonlight Camping Experience" />
+        <h3>Moonlight Camping</h3>
+        <p>Camp under the stars on the moon’s serene surface.</p>
+      </div>
+      <div class="card">
+        <img src="assets/nebula-diving.jpg" alt="Nebula Diving Excursion" />
+        <h3>Nebula Diving</h3>
+        <p>Dive through colorful cosmic clouds in the Orion Nebula.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="destinations">
+    <h2><i class="fas fa-map-marked-alt"></i> Top Destinations</h2>
+    <ul class="destination-list">
+      <li title="Visit Jupiter's Moons">Europa</li>
+      <li title="Visit the Rings of Saturn">Titan</li>
+      <li title="See the Red Dunes of Mars">Mars</li>
+      <li title="Travel to the Mysterious Kepler-22b">Kepler-22b</li>
+    </ul>
+  </section>
+
+  <section id="faq">
+    <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+    <div class="faq-container">
+      <div class="faq-item">
+        <h3>Is space travel safe?</h3>
+        <p>Absolutely. All trips are guided by certified Astro-guides and follow Galactic Safety Protocols.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What should I pack?</h3>
+        <p>Just bring your excitement—we provide everything else!</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can I customize my adventure?</h3>
+        <p>Yes! We offer personalized packages for every type of space traveler.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2><i class="fas fa-envelope-open-text"></i> Contact Cosmic Travels</h2>
+
+    <div class="contact-info">
+      <div class="info-item" title="Visit us at our main office">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>42 Galaxy Way, Nebula City, ORB-101</p>
+      </div>
+      <div class="info-item" title="Call us">
+        <i class="fas fa-phone"></i>
+        <p>+1 (800) 555-COSMIC</p>
+      </div>
+      <div class="info-item" title="Email us">
+        <i class="fas fa-envelope"></i>
+        <p>hello@cosmictravels.com</p>
+      </div>
+      <div class="info-item social-icons" title="Follow us on social media">
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <form>
+      <input type="text" placeholder="Your Name" required title="Enter your name" />
+      <input type="email" placeholder="Email Address" required title="Enter your email" />
+      <textarea placeholder="Message" required title="Enter your message"></textarea>
+      <button type="submit" title="Send your message"><i class="fas fa-paper-plane"></i> Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cosmic Travels. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
